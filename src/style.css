@@ -1,4 +1,77 @@
 body{
-    background: bisque;
+    background-color: #f9f7fe;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 120px auto;
+    max-width: 600px;
+}
+
+a{
+    color: #272044;
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #272044;
+    text-align: center;
+    
+}
+
+
+
+form{
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow:0px 20px 60px rgba(65, 50, 100, 0.08) ;
+}
+
+.prompt{
+    padding: 16px;
+    border: 1px solid rgba(39, 33, 66, 0.5);
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: #272044;
+}
+
+.button{
+    padding: 14px 25px;
+    border: none;
+    background-color: #272044;
     color: white;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.poem{
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2px;
+  border-left: 3px solid #272044; 
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: #272044;
+    margin-top: 30px;
 }
