@@ -6,27 +6,30 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css"/>
-    <title>Document</title>
+    <title>AI Poem Generator</title>
 </head>
 <body>
- <div class="container">
+ 
     <header>
         <h1> AI Poem Generator </h1>  
        </header>
-       
+       <div class="container">
        <main>
-           <form type="text" id="prompt">
+           <form type="text" class="prompt" id="prompt">
               <input type="text" id="search" 
-              placeholder="Enter topic"
+              placeholder="Enter a topic for your poem"
               autofocus
               required
               autocomplete="off"
-              class="prompt"/>
+              />
               <input type="submit" value="Generate" class="button"/>
            </form> 
+           <div class="hint">i.e: Ocean, Paris or Cheese</div>
 
            <div class="poem" id="poem"></div>
-        
+        </div>
+           <div class="hidden" id="poem"></div>
+           
        </main>
 
 
@@ -34,7 +37,7 @@
 and is open-sourced on <a href="https://github.com/aobakwesep/poem-generator" target="_blank">Github</a>
 and hosted on <a href="https://bakwepoetrygen.netlify.app/" target="_blank">Netlify</a> 
 </footer>
-</div>
+
  <script src="src/index.js"></script>
 </body>
 </html>
